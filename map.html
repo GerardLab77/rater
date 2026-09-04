@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Index — Common Ground</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /><link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" /><link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="map-body"><div class="grain" aria-hidden="true"></div><header class="topbar"><a class="wordmark" href="index.html"><span>◎</span> common ground</a><nav class="main-nav" aria-label="Main navigation"><a href="index.html#feed">Your feed</a><a href="index.html#discover">Discover</a><a class="active" href="map.html">The Index</a><a href="index.html#profile">Your ratings</a></nav><a class="avatar" href="index.html#profile" aria-label="Open profile">JD</a></header>
+    <main class="map-main"><div class="map-heading"><div><p class="eyebrow"><span class="live-dot"></span> 24 titles / one view</p><h1>The Index</h1><p>A living map of everything you’ve rated.</p></div><a class="button button-primary" href="index.html#profile">+ Add rating</a></div><div class="map-controls"><span>Filter by tag</span><div id="map-tags"></div><button id="map-clear" type="button">Clear all</button></div><section class="big-map" aria-label="Your rating map"><div class="map-axis axis-y">highly rated</div><div class="map-axis axis-x">recently added</div><canvas id="orbit-canvas" aria-label="Animated map of your ratings"></canvas><div class="orbit-core-label"><strong>9.3</strong><span>average score</span></div><div class="map-legend"><span><i class="legend-film"></i>film</span><span><i class="legend-games"></i>games</span><span><i class="legend-books"></i>books</span><span><i class="legend-anime"></i>anime</span></div><div class="orbit-tooltip" id="orbit-tooltip"></div></section><section class="map-list"><div class="map-list-heading"><span>Titles in view</span><span id="map-count">04 entries</span></div><div id="map-entries"></div></section></main><script src="map.js"></script>
+  </body>
+</html>
